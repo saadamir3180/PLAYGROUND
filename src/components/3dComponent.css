@@ -1,0 +1,12 @@
+.threeComponent{
+    --size: 30rem;
+    border: 1px solid rgb(255, 255, 255);
+    width: var(--size)!important;
+    height: var(--size) !important;
+}
+.threeComponent canvas{
+    width: inherit !important;
+    height: inherit !important;
+    object-fit: cover;
+    object-position: center;
+}

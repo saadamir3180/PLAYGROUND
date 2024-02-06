@@ -1,0 +1,13 @@
+.cursor{
+    --cursorSize: 1rem;
+    width: var(--cursorSize);
+    height: var(--cursorSize);
+    background-color: rgb(111, 202, 111);
+    opacity: 100%;
+    position: fixed;
+    border-radius: 0 12px 0 12px;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    /* filter: blur(1rem);
+    transition: all 0.1s linear; */
+}

@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin: auto;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container{
+    height: 50vh;
+    width: 50vw;
+    background: red;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-side{
+    height: 50vh;
+    width: 50vw;
+    background: blue;
+}
+.left-side img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.right-side{
+    height: 50vh;
+    width: 50vw;
+    background: yellow;
+}
